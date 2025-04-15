@@ -1,0 +1,9 @@
+spring.application.name=herramientasDedesarrollo
+# Database Configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/nombre_db
+spring.datasource.username=tu_usuario
+spring.datasource.password=tu_password
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
